@@ -63,3 +63,26 @@ a:hover {
 a:active {
     color: #22559c;
 }
+
+/*hero*/
+
+.hero-banner {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-color: lightcyan;
+  }
+  
+  /* main layout*/
+  
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .page-section {
+    display: flex;
+  
+  }
