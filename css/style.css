@@ -28,7 +28,7 @@ p {
 /* Header and navigation bar*/
 
 header {
-    background-color: #f0d9da;
+    background-color: #c9c7e0;
     height: 70px;
     display: flex;
     justify-content: flex-end;
@@ -177,4 +177,29 @@ a:active {
   flex-direction: column;
   margin-top: 6.5em;
   background-color: #ecf2f9;
+  }
+
+  /* Contact Me */
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+  }
+  
+  /* aligning and spacing out a element to the right */
+  
+  #contact a {
+    margin-right: 50px;
+ 
+  }
+  
+  /*footer*/
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
   }
